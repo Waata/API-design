@@ -1,4 +1,4 @@
-body {	color:#fff;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg.jpg) right no-repeat fixed #fff;background-size: cover; -webkit-font-smoothing:antialiased;}
+body {	color:#fff;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/bg1.jpg) right no-repeat fixed #fff;background-size: cover; -webkit-font-smoothing:antialiased;}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
@@ -25,7 +25,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .btn:hover,.btn:active{color: #fff;}
 .btn-default{color: #ccc;border: 1px solid #aaa;}
 /* .btn-default:hover,.btn-default:active{background: rgba(0,0,0,0.8);} */
-.btn-primary{color: #fff;background:#666;width: 100%;outline: none;}
+.btn-primary{color: #fff;background:black;width: 100%;outline: none;}
 .btn-primary:hover,.btn-primary:active,.btn-primary:focus{background:#333;box-shadow: none;}
 
 
@@ -69,7 +69,10 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .contactform textarea,.contactform input{width: 100%;padding:1em;border:1px solid #ccc;margin-bottom: 1em;border-radius: 0;outline: none;}
 /*contact*/
 
-.footer{background-color: #111; color: #fff; font-size: 1em;color: #aaa;}
+.footer{background: -webkit-linear-gradient(bottom, rgba(255,0,0,0),black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, rgba(255,0,0,0),black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, rgba(255,0,0,0), black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to top, rgba(255,0,0,0), black); /* Standard syntax (must be last) */ color: #fff; font-size: 1em;color: #aaa;}
 .footer a{color: #aaa;margin: 0 1em; }
 
 .gototop{position: fixed;bottom: 20px; right: 20px;background: rgba(0,0,0,0.5);padding: 10px;color: #fff;}
